@@ -22,12 +22,14 @@
     "outbounds": [
         {
             "protocol": "socks",
-            "servers": [
-                {
-                    "address": "warp-proxy",
-                    "port": 40000
-                }
-            ]
+            "settings": {
+                "servers": [
+                    {
+                        "address": "warp-proxy",
+                        "port": 40000
+                    }
+                ]
+            }
         }
     ]
 }
