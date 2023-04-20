@@ -1,0 +1,25 @@
+{
+    "inbounds": [
+        {
+            "port": 8886,
+            "listen": "0.0.0.0",
+            "protocol": "trojan",
+            "settings": {
+                "clients": [
+                    {
+                        "password": "xiaocao123",
+                        "email": "love@v2fly.org",
+                        "level": 0
+                    }
+                ]
+            }
+        }
+    ],
+    "outbounds": [
+        {
+            "protocol": "socks",
+            "address": "warp-proxy",
+            "port": 40000
+        }
+    ]
+}
