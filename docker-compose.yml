@@ -1,7 +1,7 @@
 # @Author: xiaocao
 # @Date:   2023-04-20 10:59:15
 # @Last Modified by:   xiaocao
-# @Last Modified time: 2023-04-20 17:28:45
+# @Last Modified time: 2023-04-20 17:51:58
 
 version: "0.1"
 services:
@@ -23,5 +23,5 @@ services:
     container_name: warp-proxy
     expose:
      - 40001
-
+    tty: true
     restart: unless-stopped
