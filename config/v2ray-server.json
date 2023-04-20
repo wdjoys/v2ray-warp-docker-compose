@@ -12,14 +12,22 @@
                         "level": 0
                     }
                 ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "none"
             }
         }
     ],
     "outbounds": [
         {
             "protocol": "socks",
-            "address": "warp-proxy",
-            "port": 40000
+            "servers": [
+                {
+                    "address": "warp-proxy",
+                    "port": 40000
+                }
+            ]
         }
     ]
 }
