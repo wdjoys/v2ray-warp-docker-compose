@@ -1,7 +1,7 @@
 # @Author: xiaocao
 # @Date:   2023-04-20 10:59:15
 # @Last Modified by:   xiaocao
-# @Last Modified time: 2023-04-20 17:51:58
+# @Last Modified time: 2023-04-20 17:57:56
 
 version: "0.1"
 services:
@@ -24,4 +24,5 @@ services:
     expose:
      - 40001
     tty: true
+    stdin_open: true
     restart: unless-stopped
