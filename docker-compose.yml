@@ -1,7 +1,7 @@
 # @Author: xiaocao
 # @Date:   2023-04-20 10:59:15
 # @Last Modified by:   xiaocao
-# @Last Modified time: 2023-04-20 11:44:31
+# @Last Modified time: 2023-04-20 14:15:10
 
 version: "0.1"
 services:
@@ -11,6 +11,7 @@ services:
     container_name: v2ray
     ports:
       - 8886:8886
+      - 8887:8887
     command: run -c /etc/v2ray/config.json
     
     volumes:
