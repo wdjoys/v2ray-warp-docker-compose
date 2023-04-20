@@ -41,7 +41,7 @@
                 "servers": [
                     {
                         "address": "warp-proxy",
-                        "port": 40000
+                        "port": 40001
                     }
                 ]
             }
