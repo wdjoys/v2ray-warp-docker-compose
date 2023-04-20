@@ -16,6 +16,22 @@
             "streamSettings": {
                 "network": "tcp"
             }
+        },
+        {
+            "port": 8887,
+            "listen": "0.0.0.0",
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "e344b244-482a-423a-a72c-c38fd0b12f25",
+                        "alterId": 0
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp"
+            }
         }
     ],
     "outbounds": [
