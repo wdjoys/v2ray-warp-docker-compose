@@ -1,7 +1,7 @@
 # @Author: xiaocao
 # @Date:   2023-04-20 10:59:15
 # @Last Modified by:   xiaocao
-# @Last Modified time: 2023-04-20 16:08:13
+# @Last Modified time: 2023-04-20 17:28:45
 
 version: "0.1"
 services:
@@ -19,7 +19,7 @@ services:
     restart: unless-stopped
   
   warp-proxy:
-    image: yarmak/warp-proxy
+    image: wdjoys/warp-proxy
     container_name: warp-proxy
     expose:
      - 40001
